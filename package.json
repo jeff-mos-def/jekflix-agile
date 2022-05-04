@@ -21,12 +21,12 @@
     "url": "https://github.com/thiagorossener/jekflix-template/issues"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^1.9.2",
     "child_process": "^1.0.2",
     "del": "^5.1.0",
-    "gulp": "^4.0.2",
+    "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^6.2.0",
+    "gulp-imagemin": "^4.1.0",
     "gulp-include": "^2.4.1",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.4.0",
@@ -37,5 +37,9 @@
     "lodash": "^4.17.21",
     "lodash.merge": "^4.6.2",
     "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "uuid": "^8.3.2"
   }
 }
