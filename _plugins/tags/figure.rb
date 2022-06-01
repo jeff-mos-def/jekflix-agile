@@ -8,7 +8,7 @@ module Jekyll
       @input = input
     end
 
-    def render(context)
+    def render(_context)
       output = "<figure>"
 
       image = ""
