@@ -18,10 +18,7 @@
         var client = docElem['clientHeight'],
             inner = window['innerHeight'];
         
-        if( client < inner )
-            return inner;
-        else
-            return client;
+        return client < inner ? inner : client;
     }
 
     function scrollY() {
