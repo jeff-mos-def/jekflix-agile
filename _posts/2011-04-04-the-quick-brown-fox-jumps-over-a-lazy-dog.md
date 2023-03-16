@@ -1,136 +1,53 @@
 ---
 date: 2018-10-09 12:26:40
 layout: post
-title: The quick brown fox jumps over a lazy dog
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_760/v1506079212/jekflix-capa_vfhuzh.png
-optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1506079212/jekflix-capa_vfhuzh.png
-category: css
+title: Circles of Agility, Pi Day Reflections
+subtitle: The Continuous Nature of Agile Improvement
+description: A commemorative post on the continuous nature of Agile Improvement on Pi Day
+image: /assets/img/blogposts/piday.jpg
+optimized_image: /assets/img/blogposts/piday.jpg
+category: PI Day Reflections
 tags:
-  - css
-  - tips
-author: thiagorossener
+  - Pi Day
+  - Insight
+author: jeffcamacho
 ---
 
-Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+# Circles of Agility: Pi Day Reflections on the Continuous Nature of Agile Improvement
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+On this unique day, celebrated annually on March 14th, we commemorate the mathematical constant pi (π). Representing the ratio of a circle's circumference to its diameter, pi is an irrational number that cannot be expressed as a simple fraction. In honor of Pi Day, let's explore the parallels between the endless nature of pi and the continuous improvement inherent in agile methodologies.
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+## Embracing the Infinite
 
-## Inline HTML elements
+Just as pi continues infinitely without repetition or pattern, agile methodologies embrace the concept of continuous iteration and refinement. The Agile Manifesto advocates for the importance of flexibility and adaptability, emphasizing the value of learning and growth through an ongoing cycle of feedback and improvement.
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+> "The most efficient and effective method of conveying information to and within a development team is face-to-face conversation." - *Kent Beck, Co-author of the Agile Manifesto*
 
-- **To bold text**, use `<strong>`.
-- *To italicize text*, use `<em>`.
-- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-- Citations, like <cite>&mdash; Thiago Rossener</cite>, should use `<cite>`.
-- <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+Kent Beck, a renowned software engineer and one of the co-authors of the Agile Manifesto, champions the idea of face-to-face conversation as a key component of successful agile teams. Communication enables teams to address issues, share ideas, and facilitate the continuous improvement process, mirroring the endless pursuit of understanding pi's infinite nature.
 
-Most of these elements are styled by browsers with few modifications on our part.
+## The Circle of Agile Improvement
 
-# Heading 1
+The circular shape of pi reminds us of the cyclical nature of agile methodologies. Teams iterate through phases of planning, execution, review, and adaptation, continuously refining their processes to deliver better results. This cycle, often referred to as a "feedback loop," ensures that teams learn from their experiences and evolve, much like the ongoing calculation of pi's digits.
 
-## Heading 2
+### Planning
 
-### Heading 3
+In the planning phase, teams establish goals, define priorities, and create a roadmap for achieving their objectives. Just as mathematicians seek to understand pi, agile teams aim to understand project requirements and set realistic expectations.
 
-#### Heading 4
+### Execution
 
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+During the execution phase, teams work on tasks and develop solutions, staying aligned with project priorities. As the project progresses, agile teams stay open to change and adapt to new information, similar to the flexibility required when working with pi's infinite decimals.
 
-## Code
+### Review
 
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
+The review phase provides an opportunity for teams to assess their progress, identify challenges, and discuss opportunities for improvement. Reflecting on the project's outcomes, just as one would analyze the patterns in pi's decimal expansion, helps the team uncover valuable insights.
 
-```js
-// Example can be run directly in your JavaScript console
+### Adaptation
 
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
+The final phase in the agile cycle is adaptation. Teams apply lessons learned from the review phase and adjust their processes, ensuring continuous improvement in their workflow. Like the endless search for new digits of pi, agile teams constantly strive to enhance their performance.
 
-// Call the function
-adder(2, 6);
-// > 8
-```
+## Conclusion
 
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
+This Pi Day, let's celebrate not only the fascinating nature of this mathematical constant but also the continuous improvement mindset that agile methodologies encourage. Embrace the infinite possibilities of growth, learning, and adaptation in your projects, just as we do when marveling at the endless digits of pi.
 
-## Lists
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-## Images
-
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
-
-![placeholder](https://placehold.it/800x400 "Large example image")
-![placeholder](https://placehold.it/400x200 "Medium example image")
-![placeholder](https://placehold.it/200x200 "Small example image")
-
-## Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-
-
-
-
-
-
-
-
-
+Photo by <a href="https://unsplash.com/pt-br/@sheri_silver?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">sheri silver</a> on <a href="https://unsplash.com/photos/tWOt1vRvob4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
