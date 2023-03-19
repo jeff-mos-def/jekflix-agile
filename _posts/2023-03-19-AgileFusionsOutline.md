@@ -1,16 +1,16 @@
 ---
-date: 2023-03-4T23:48:05.000Z
+date: 2023-03-19T15:00:00.000Z
 layout: post
-title: Why books should be your priority?
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559822138/theme9_v273a9.jpg
-optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559822138/theme9_v273a9.jpg
-category: life
+title: AgileFusion Software Solutions, the beginning.
+subtitle: AgileFusion Software Solutions is put on paper for services and company breakdown.
+description: The idea and creation of a company used only for a thought experiment and discussions.
+image: /assets/img/blogposts/AgileFusions.jpg
+optimized_image: /assets/img/blogposts/AgileFusions.jpg
+category: strategy
 tags:
-  - books
-  - read
-author: thiagorossener
+  - company creation
+  - AgileFusions
+author: jeffcamacho
 paginate: true
 ---
 

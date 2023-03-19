@@ -1,5 +1,5 @@
 ---
-date: 2023-03-5T23:48:05.000Z
+date: 2099-03-5T23:48:05.000Z
 layout: post
 title: Welcome to the desert of the real
 subtitle: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
@@ -88,6 +88,14 @@ Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo r
 Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
 
 ![placeholder](https://placehold.it/800x400 "Large example image") ![placeholder](https://placehold.it/400x200 "Medium example image") ![placeholder](https://placehold.it/200x200 "Small example image")
+
+https://www.youtube.com/watch?v=Ft5kDiKLN20
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/Ft5kDiKLN20" frameborder="0" allowfullscreen></iframe>
+
+<iframe src="https://giphy.com/embed/hDVOXQXxfUNmo" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/hDVOXQXxfUNmo"></a></p>
+
+<iframe src="https://giphy.com/embed/xT1XGOGdyDrL2BTfxK" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/siliconvalleyhbo-xT1XGOGdyDrL2BTfxK"></a></p>
 
 ## Tables
 
