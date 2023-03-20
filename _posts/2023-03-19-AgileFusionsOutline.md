@@ -8,7 +8,7 @@ image: /assets/img/blogposts/AgileFusions/AgileFusions.jpg
 optimized_image: /assets/img/blogposts/AgileFusions/AgileFusions.jpg
 category: strategy
 tags:
-  - Company Creation
+  - CompanyCreation
   - AgileFusions
 author: jeffcamacho
 paginate: true
