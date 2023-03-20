@@ -1,5 +1,5 @@
 ---
-date: 2023-03-21 09:00:00
+date: 2023-03-20 09:00:00
 layout: post
 title: How to turn your dog into an Agile master
 subtitle: A Pawsome Guide for Canine Excellence.
