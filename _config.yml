@@ -55,6 +55,12 @@ language: "en"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
 
+analytics:
+  providers:
+    GoogleAnalytics4:
+      tracking_id: G-Q12WCFYHRC
+  enabled: true
+  auto: true
 
 # Build settings
 markdown: kramdown
@@ -95,6 +101,7 @@ plugins:
   - jekyll-paginate
   - jekyll-paginate-content
   - jekyll-seo-tag
+  - jekyll-analytics
 
 # Exclude my node related stuff
 exclude: [
