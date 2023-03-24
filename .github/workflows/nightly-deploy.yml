@@ -1,0 +1,44 @@
+name: Nightly Deploy
+
+on:
+  schedule:
+    - cron: '0 6 * * *' # Runs every day at 4:00 AM UTC (which is 23:00 CST)
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7.0 # or your desired Ruby version
+
+    - name: Cache Ruby gems
+      uses: actions/cache@v2
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
+
+    - name: Install dependencies
+      run: |
+        bundle config path vendor/bundle
+        bundle install --jobs 4 --retry 3
+
+    - name: Build Jekyll site
+      run: bundle exec jekyll build
+
+    - name: Deploy to master branch
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site
+        publish_branch: master
+        user_name: 'GitHub Actions'
+        user_email: 'github-actions[bot]@users.noreply.github.com'
+        commit_message: 'Nightly deploy by GitHub Actions'
